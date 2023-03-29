@@ -407,6 +407,7 @@ input, select, textarea {
 			/* width: 41.66667%; */
 			width: 70%;
 			padding-left: 12%;
+			padding-right: 3%;
 		}
 
 		.row > .off-5 {
@@ -1155,6 +1156,7 @@ input, select, textarea {
 					/* width: 41.66667%; */
 					/* width: 70%; */
 					padding-left: 3%;
+					padding-right: 3%;
 				}
 				.row > .col-6-medium {
 					width: 50%;
