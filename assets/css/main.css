@@ -77,10 +77,11 @@ input, select, textarea {
 .line{
 	border-bottom: 1.5px solid rgb(0, 80, 255);
 	border-radius: 1px;
-    width: 30%;
+    width: 80%;
     /* position: relative; */
     /* left: 15%; */
     margin: 0 auto;
+	margin-top: 2rem;
     top: -10px;
 }
 .button1 {
@@ -305,34 +306,46 @@ input, select, textarea {
 		}
 
 /* Row */
-.profile{
-	text-align: center;
-	position: relative;
-	width:100%;
-	height:82%;
-	line-height: 10px;
-	background-color: #F4ECE6;
-	padding:1em 1em 1em 1em;
-	margin-left:30%;
-	border-radius: 3px;
-	/* box-shadow: 0px 4px 0px 4px rgba(255, 0, 0, 0.299); */
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+.col-7 {
+    width: 58.33333%; /* Adjust the width as needed */
 }
-.pcontact{
-	background-color: white;
-	width:113%;
-	height:16%;
-	margin-left:-1em;
-	position: relative;
-	top:1%;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+	height: 90%;
+    background-color: #F4ECE6;
+    padding: 1em;
+	/* padding-bottom: 2rem; */
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+	margin-left: 30%;
+}
+
+.top-section {
+    flex-grow: 1;
+    padding-bottom: 0;
+    background-color: transparent;
+	margin-bottom: 0px;
+}
+
+.pcontact {
+    width: 100%; /* Adjust the width as needed */
+    /* background-color: white; */
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+	padding: 1rem;
+	margin-bottom: 1rem !important;
 }
 	.row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		min-height:400px;
 	}
 
 		.row > * {
@@ -1336,6 +1349,7 @@ input, select, textarea {
 				top: 8%;
 				/* left: 40%; */
 				background-color: #ffffff00;
+				margin-bottom: 1rem;
 			}
 
 			.row {
@@ -1630,7 +1644,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		display: block;
 		width: 100%;
-		border-radius: 8px;
+		border-radius: 7px;
 		border: solid 1px #eee;
 	}
 
@@ -1645,8 +1659,8 @@ input, select, textarea {
 	form input[type="text"],
 	form input[type="email"],
 	form input[type="password"] {
-		line-height: 3em;
-		padding: 0 1em;
+	line-height: 3em;
+	padding: 0 1em;
 	}
 
 	form select {
@@ -1719,7 +1733,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			border-radius: 8px;
+			border-radius: 7px;
 		}
 
 		.image.fit {
@@ -1765,7 +1779,7 @@ input, select, textarea {
 		background: #0090c5;
 		color: #fff;
 		text-decoration: none;
-		border-radius: 6px;
+		border-radius: 7px;
 		font-weight: 800;
 		outline: 0;
 		border: 0;
@@ -1908,7 +1922,7 @@ input, select, textarea {
 
 	.box {
 		background: rgb(255, 255, 255);
-		border-radius: 6px;
+		border-radius: 7px;
 		box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 		/* box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05); */
 		/* padding: 2em; */
@@ -2321,6 +2335,7 @@ input, select, textarea {
 				/* top: 16%;
 				left: 40%; */
 				background-color: #ffffff00;
+				margin-bottom: 1rem;
 		}
 		.button1{
 			width: 120px;
